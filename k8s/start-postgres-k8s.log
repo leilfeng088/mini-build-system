@@ -1,0 +1,252 @@
+Fri Mar 27 00:09:28 EDT 2026 — Starting...
+Fri Mar 27 00:09:28 EDT 2026 — Starting minikube...
+* minikube v1.38.1 on Darwin 26.3 (arm64)
+* Using the docker driver based on existing profile
+
+X Exiting due to PROVIDER_DOCKER_NOT_RUNNING: "docker version --format <no value>-<no value>:<no value>" exit status 1: Cannot connect to the Docker daemon at unix:///Users/stephma/.docker/run/docker.sock. Is the docker daemon running?
+* Suggestion: Start the Docker service
+* Documentation: https://minikube.sigs.k8s.io/docs/drivers/docker/
+
+The connection to the server 127.0.0.1:52022 was refused - did you specify the right host or port?
+Fri Mar 27 00:09:28 EDT 2026 — Applying postgres.yaml...
+error: error validating "/Users/stephma/app/k8s/postgres.yaml": error validating data: failed to download openapi: Get "https://127.0.0.1:52022/openapi/v2?timeout=32s": dial tcp 127.0.0.1:52022: connect: connection refused; if you choose to ignore these errors, turn validation off with --validate=false
+The connection to the server 127.0.0.1:52022 was refused - did you specify the right host or port?
+Fri Mar 27 00:09:28 EDT 2026 — Done. Postgres is running.
+Fri Mar 27 00:09:28 EDT 2026 — Starting port-forward...
+Fri Mar 27 00:09:28 EDT 2026 — postgres available at localhost:5432
+The connection to the server 127.0.0.1:52022 was refused - did you specify the right host or port?
+Fri Mar 27 00:11:36 EDT 2026 — Starting...
+Fri Mar 27 00:11:36 EDT 2026 — Starting minikube...
+* minikube v1.38.1 on Darwin 26.3 (arm64)
+* Using the docker driver based on existing profile
+* Starting "minikube" primary control-plane node in "minikube" cluster
+* Pulling base image v0.0.50 ...
+* Verifying Kubernetes components...
+  - Using image gcr.io/k8s-minikube/storage-provisioner:v5
+* Enabled addons: storage-provisioner, default-storageclass
+* Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+node/minikube condition met
+Fri Mar 27 00:11:49 EDT 2026 — Applying postgres.yaml...
+secret/postgres-secret configured
+persistentvolumeclaim/ddma-pg-pvc unchanged
+deployment.apps/postgres unchanged
+service/postgres unchanged
+pod/postgres-7bf96c89c5-zrvzf condition met
+Fri Mar 27 00:11:50 EDT 2026 — Done. Postgres is running.
+Fri Mar 27 00:11:50 EDT 2026 — Starting port-forward...
+Fri Mar 27 00:11:50 EDT 2026 — postgres available at localhost:5432
+Forwarding from 127.0.0.1:5432 -> 5432
+Forwarding from [::1]:5432 -> 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+E0327 10:33:44.654079   31240 portforward.go:357] "Unhandled Error" err="error creating error stream for port 5432 -> 5432: Timeout occurred"
+Handling connection for 5432
+E0327 10:33:50.953887   31240 portforward.go:357] "Unhandled Error" err="error creating error stream for port 5432 -> 5432: Timeout occurred"
+Handling connection for 5432
+E0327 10:33:56.493243   31240 portforward.go:357] "Unhandled Error" err="error creating error stream for port 5432 -> 5432: Timeout occurred"
+Handling connection for 5432
+E0327 10:34:01.896065   31240 portforward.go:357] "Unhandled Error" err="error creating error stream for port 5432 -> 5432: Timeout occurred"
+E0327 10:34:07.077599   31240 portforward.go:357] "Unhandled Error" err="error creating error stream for port 5432 -> 5432: Timeout occurred"
+Handling connection for 5432
+E0327 10:34:12.310074   31240 portforward.go:357] "Unhandled Error" err="error creating error stream for port 5432 -> 5432: Timeout occurred"
+Handling connection for 5432
+Handling connection for 5432
+error: lost connection to pod
+Tue Mar 31 22:33:59 EDT 2026 — Starting...
+Tue Mar 31 22:34:00 EDT 2026 — Starting minikube...
+* minikube v1.38.1 on Darwin 26.3 (arm64)
+* Using the docker driver based on existing profile
+* Starting "minikube" primary control-plane node in "minikube" cluster
+* Pulling base image v0.0.50 ...
+* Verifying Kubernetes components...
+  - Using image gcr.io/k8s-minikube/storage-provisioner:v5
+* Enabled addons: storage-provisioner, default-storageclass
+* Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+node/minikube condition met
+Tue Mar 31 22:34:16 EDT 2026 — Applying postgres.yaml...
+secret/postgres-secret configured
+persistentvolumeclaim/ddma-pg-pvc unchanged
+deployment.apps/postgres unchanged
+service/postgres unchanged
+pod/postgres-7bf96c89c5-zrvzf condition met
+Tue Mar 31 22:34:16 EDT 2026 — Done. Postgres is running.
+Tue Mar 31 22:34:17 EDT 2026 — Starting port-forward...
+Tue Mar 31 22:34:17 EDT 2026 — postgres available at localhost:5432
+Forwarding from 127.0.0.1:5432 -> 5432
+Forwarding from [::1]:5432 -> 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+error: lost connection to pod
+Mon Apr 20 13:14:20 EDT 2026 — Starting...
+Mon Apr 20 13:14:22 EDT 2026 — Minikube already running
+node/minikube condition met
+Mon Apr 20 13:14:22 EDT 2026 — Applying postgres.yaml...
+secret/postgres-secret configured
+persistentvolumeclaim/onlineorder2-pg-pvc unchanged
+deployment.apps/postgres unchanged
+service/postgres unchanged
+pod/postgres-6d4d585cf4-bfsc7 condition met
+Mon Apr 20 13:14:23 EDT 2026 — Done. Postgres is running.
+Mon Apr 20 13:14:23 EDT 2026 — Starting port-forward...
+Mon Apr 20 13:14:23 EDT 2026 — postgres available at localhost:5432
+Forwarding from 127.0.0.1:5432 -> 5432
+Forwarding from [::1]:5432 -> 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+Handling connection for 5432
+error: lost connection to pod
