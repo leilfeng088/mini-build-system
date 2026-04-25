@@ -19,7 +19,7 @@ jobs:
         with:
           image: nginx:1.27.4
           fail-build: true 
-          severity-cutoff: critical
+          severity-cutoff: low
   deploy:
     name: Deploy to Kubernetes
     runs-on: ubuntu-latest
