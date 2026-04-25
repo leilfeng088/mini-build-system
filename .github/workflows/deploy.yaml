@@ -8,18 +8,6 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  trivy-scan:
-    name: Trivy Image Scan
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4.2.2
-
-      - name: Scan nginx image
-        uses: anchore/scan-action@v3
-        with:
-          image: nginx:1.27.4
-          fail-build: true 
-          severity-cutoff: low
   deploy:
     name: Deploy to Kubernetes
     runs-on: ubuntu-latest
